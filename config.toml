@@ -1,0 +1,10 @@
+[interface]
+name = "enp0s3"
+ip = "192.168.31.2/24"
+
+[route]
+destination = "0.0.0.0/0"
+gateway = "192.168.31.124"
+
+[dns]
+servers = ["1.1.1.1","8.8.8.8"]
